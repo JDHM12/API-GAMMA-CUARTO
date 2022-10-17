@@ -7,7 +7,7 @@ import path from 'path';
 const __dirname = path.resolve();
 var app = express();
 const PORT=4000;
-var dbURL= 'mongodb+srv://Admin:SYU9PsDhAxK4GZo9@example.aswx27u.mongodb.net/?retryWrites=true&w=majority'
+var dbURL= '--'
 
 //mongoose.Promise= global.Promise;
 mongoose.connect(dbURL,{useNewUrlParser:true,useUnifiedTopology:true})
