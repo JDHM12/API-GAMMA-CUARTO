@@ -17,7 +17,7 @@ Generado un Json con el siguiente formato y almacenado en una base de datos de t
 
 ```{'fechaEntrada':'##','durezaEntrada':'##','durezaSalida':'##','familiaRef':'##','zona':'##','elevado':'##','hueco':'##','fechaSalida':'##'}```
 
----
++++
 
 ## Rutas API
 
