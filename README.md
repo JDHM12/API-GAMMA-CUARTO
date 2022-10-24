@@ -12,6 +12,7 @@ rollo en el cuarto esto apartir de las siguientes Variables:
   - Hueco (Contar con perforación)
   - Zona Cuarto
   - Altura 
+
 Generado un Json con el siguiente formato y almacenado en una base de datos de tipo NoSQL, el codigo se realizo con MongoDB en el archivo *index.js* se encuentra la variable **dbURL** para almacenar la conexión.
 
 `{'fechaEntrada':'##','durezaEntrada':'##','durezaSalida':'##','familiaRef':'##','zona':'##','elevado':'##','hueco':'##','fechaSalida':'##'}`
