@@ -25,7 +25,7 @@ la API cuenta con un CRUD simple para obtener y manipular los datos.
 
 - [X] Read: /inventario --> retorna todos los rollos almacenado en la base de datos retornandolos el body. (Get)
 
-- [] Update: No cuenta con update ya que no es necesario
+- [ ] Update: No cuenta con update ya que no es necesario
 
 - [X] Delete: /inventario?id=# --> elimina el rollo partiendo del parametro id almacenado en la base de datos el cual es autogenerado por Mongo.
 
