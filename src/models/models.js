@@ -7,6 +7,12 @@ export const RolloSchema= new Schema({
         type: Date,
         default:Date.now
       },
+      durezaEntrada: {
+        type:Number
+      },
+      durezaSalida: {
+        type:Number
+      },
       familiaRef: {
         type:Number
       },
