@@ -17,8 +17,6 @@ Generado un Json con el siguiente formato y almacenado en una base de datos de t
 
 ```{'fechaEntrada':'##','durezaEntrada':'##','durezaSalida':'##','familiaRef':'##','zona':'##','elevado':'##','hueco':'##','fechaSalida':'##'}```
 
-***
-
 ## Rutas API
 
 la API cuenta con un CRUD simple para obtener y manipular los datos.
@@ -31,6 +29,8 @@ la API cuenta con un CRUD simple para obtener y manipular los datos.
 
 - [X] Delete: /inventario?id=# --> elimina el rollo partiendo del parametro id almacenado en la base de datos el cual es autogenerado por Mongo.
 
+***
+### Nota
 
 Para poner el servidor en funcionamiento con *Node.Js* ejecute el siguiente comando ubicado en la carpeta del proyecto
 
