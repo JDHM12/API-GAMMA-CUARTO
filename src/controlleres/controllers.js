@@ -5,7 +5,7 @@ const Rollo = mongoose.model('Rollo',RolloSchema);
 
 export const addRollo = (req,res)=>{
     let newRollo = new Rollo(req.body)
-      newRollo['fechaSalida']=Date.parse(new Date(Date.now()+9.8*newRollo['familiaRef']+5.8*newRollo['zona']+5.8*newRollo['elevado']))
+      newRollo['fechaSalida']=Date.parse(new Date(Date.now()+(19.83*newRollo["durezaSalida"]-19.53*newRollo["durezaEntrada"]+1.15*newRollo["elevado"]+0.2*newRollo["familiaRef"]+0.5*newRollo["zona"]+3.97*newRollo["hueco"])*3.6e+6))
       newRollo.save((err,rollo)=>{
           if(err){
            res.send(err);
