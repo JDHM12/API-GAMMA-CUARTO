@@ -15,7 +15,9 @@ rollo en el cuarto esto apartir de las siguientes Variables:
 
 Generado un Json con el siguiente formato y almacenado en una base de datos de tipo NoSQL.El codigo se realizo con MongoDB en el archivo *index.js* se encuentra la variable **dbURL** para almacenar la conexión.
 
-``` js {'fechaEntrada':'##','durezaEntrada':'##','durezaSalida':'##','familiaRef':'##','zona':'##','elevado':'##','hueco':'##','fechaSalida':'##'}```
+```{'fechaEntrada':'##','durezaEntrada':'##','durezaSalida':'##','familiaRef':'##','zona':'##','elevado':'##','hueco':'##','fechaSalida':'##'}```
+
+---
 
 ## Rutas API
 
