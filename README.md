@@ -21,9 +21,9 @@ Generado un Json con el siguiente formato y almacenado en una base de datos de t
 
 la API cuenta con un CRUD simple para obtener y manipular los datos.
 
-[X] Create : /inventario --> esta toma el JSON del body de una peticion generada. (POST)
+[X]  Create : /inventario --> esta toma el JSON del body de una peticion generada. (POST)
 
-[X] Read: /inventario --> retorna todos los rollos almacenado en la base de datos retornandolos el body. (Get)
+[X]  Read: /inventario --> retorna todos los rollos almacenado en la base de datos retornandolos el body. (Get)
 
 [] Update: No cuenta con update ya que no es necesario
 
