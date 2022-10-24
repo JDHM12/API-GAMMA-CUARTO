@@ -1,4 +1,4 @@
-#API GAMMA CUARTO ACONDICIONAMIENTO
+# API GAMMA CUARTO ACONDICIONAMIENTO
 
 
 #Se busca generar una API que con un modelo de regresion lineal multiple permita
